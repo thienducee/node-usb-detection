@@ -1,5 +1,5 @@
 {
-  "name": "usb-detection",
+  "name": "detection",
   "version": "4.1.0",
   "description": "Listen to USB devices and detect changes on them.",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/MadLittleMods/node-usb-detection.git"
+    "url": "git://github.com/thienducee/node-usb-detection.git"
   },
   "keywords": [
     "usb",
@@ -30,14 +30,7 @@
     "unplug",
     "notification"
   ],
-  "homepage": "https://github.com/MadLittleMods/node-usb-detection",
-  "bugs": {
-    "url": "https://github.com/MadLittleMods/node-usb-detection/issues"
-  },
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/MadLittleMods/node-usb-detection/master/licence"
-  },
+  "homepage": "https://github.com/thienducee/node-usb-detection",
   "engines": {
     "node": ">=4"
   },
