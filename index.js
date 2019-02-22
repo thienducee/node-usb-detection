@@ -6,7 +6,7 @@ var index = require('./package.json');
 if(global[index.name] && global[index.name].version === index.version) {
 	module.exports = global[index.name];
 } else {
-	var detection = require('bindings')('detection.node');
+	var detection = require('bindings')('detection');
 	var EventEmitter2 = require('eventemitter2').EventEmitter2;
 
 	var detector = new EventEmitter2({
